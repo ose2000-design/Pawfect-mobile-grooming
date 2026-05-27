@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { FaFacebook, FaInstagram } from "react-icons/fa";
+import { FaFacebook } from "react-icons/fa";
 
 const quickLinks = ["Home", "Services", "Gallery", "Testimonials", "Contact"];
 const serviceLinks = [
@@ -36,14 +36,14 @@ export default function Footer() {
             <a
               href="#"
               onClick={(e) => { e.preventDefault(); handleNavClick("#"); }}
-              className="flex items-baseline text-primary mb-4"
+              className="flex items-baseline text-primary mb-4 flex-wrap"
               data-testid="link-footer-logo"
             >
-              <span className="font-montserrat font-extrabold text-2xl">Velvet Paw</span>
-              <span className="font-dancing text-3xl ml-2">Spa</span>
+              <span className="font-montserrat font-extrabold text-xl">Pawfect Mobile</span>
+              <span className="font-dancing text-2xl ml-2">Grooming</span>
             </a>
             <p className="text-gray-400 text-sm leading-relaxed">
-              Where grooming meets wellness. Premium dog spa care for your beloved fur family.
+              Where grooming meets wellness. Premium mobile dog grooming for your beloved fur family.
             </p>
           </div>
 
@@ -95,23 +95,18 @@ export default function Footer() {
               >
                 <FaFacebook className="text-black" size={18} />
               </motion.a>
-              <motion.a
-                whileHover={{ scale: 1.1 }}
-                href="#"
-                className="w-10 h-10 bg-primary rounded-full flex items-center justify-center hover:bg-primary/80 transition-colors"
-                data-testid="link-footer-instagram"
-              >
-                <FaInstagram className="text-black" size={18} />
-              </motion.a>
             </div>
-            <p className="text-gray-400 text-sm mb-1">+1 (555) 123-4567</p>
-            <p className="text-gray-400 text-sm">hello@velvetpawspa.com</p>
+            <div className="space-y-1">
+              <p className="text-gray-400 text-sm">Mon–Fri: 8:00am – 7:00pm</p>
+              <p className="text-gray-400 text-sm">Saturday: 8:00am – 5:00pm</p>
+              <p className="text-gray-400 text-sm">Sunday: By Appointment</p>
+            </div>
           </div>
         </div>
 
         <div className="border-t border-primary/30 pt-8 text-center">
           <p className="text-gray-500 text-sm">
-            &copy; 2025 Velvet Paw Spa. All rights reserved. | Crafted with ❤️ for dog lovers
+            &copy; 2025 Pawfect Mobile Grooming. All rights reserved. | Crafted with ❤️ for dog lovers
           </p>
         </div>
       </div>

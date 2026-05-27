@@ -55,9 +55,9 @@ export default function Navbar() {
             data-testid="link-logo"
           >
             <span className="font-montserrat font-extrabold text-2xl tracking-tight">
-              Velvet Paw
+              Pawfect Mobile
             </span>
-            <span className="font-dancing text-3xl ml-2">Spa</span>
+            <span className="font-dancing text-3xl ml-2">Grooming</span>
           </a>
 
           <div className="hidden md:flex items-center space-x-8">
@@ -122,7 +122,7 @@ export default function Navbar() {
                     e.preventDefault();
                     handleNavClick(link.href);
                   }}
-                  className="text-white text-3xl font-montserrat font-bold hover:text-primary transition-colors"
+                  className="text-white text-2xl font-montserrat font-bold hover:text-primary transition-colors"
                 >
                   {link.name}
                 </a>

@@ -42,7 +42,7 @@ export default function About() {
             Every Dog Deserves to Feel Beautiful
           </h2>
           <p className="text-gray-300 text-base leading-relaxed mb-4">
-            At Velvet Paw Spa, we believe grooming is more than a trim — it's a wellness experience. We treat every dog with the same love and care as we would our own.
+            At Pawfect Mobile Grooming, we believe grooming is more than a trim — it's a wellness experience. We treat every dog with the same love and care as we would our own.
           </p>
           <p className="text-gray-300 text-base leading-relaxed mb-8">
             Our certified groomers create a calm, stress-free environment where your pet feels safe, pampered, and truly special. Because when your dog feels good, you feel good.
