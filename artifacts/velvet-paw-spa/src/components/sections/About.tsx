@@ -19,15 +19,6 @@ export default function About() {
             data-testid="img-about"
           />
           <div className="absolute inset-0 bg-gradient-to-r from-black/30 to-transparent" />
-          <div className="absolute -bottom-4 -right-4 lg:bottom-8 lg:-right-6 z-10">
-            <svg width="80" height="40" viewBox="0 0 80 40" fill="none" className="drop-shadow-xl">
-              <rect x="2" y="14" width="76" height="12" rx="6" fill="#F5C518" />
-              <circle cx="15" cy="8" r="6" fill="#F5C518" />
-              <circle cx="35" cy="5" r="5" fill="#F5C518" />
-              <circle cx="55" cy="5" r="5" fill="#F5C518" />
-              <circle cx="72" cy="8" r="6" fill="#F5C518" />
-            </svg>
-          </div>
         </motion.div>
 
         <motion.div
