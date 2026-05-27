@@ -13,7 +13,7 @@ const testimonials = [
   {
     name: "James T.",
     initial: "J",
-    quote: "Velvet Paw Spa is the only place I trust with my Golden Retriever Max. He comes home so calm and happy every time.",
+    quote: "Pawfect Mobile Grooming is the only place I trust with my Golden Retriever Max. He comes home so calm and happy every time.",
     stars: 5,
   },
   {
